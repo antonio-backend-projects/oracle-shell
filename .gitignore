@@ -1,0 +1,103 @@
+# -------------------------
+# OS / File di sistema
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Python: bytecode & cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtualenv
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# -------------------------
+# Distribuzione / Packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# -------------------------
+# Test / Coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+# Lint / Type checking
+# -------------------------
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyre/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Log / Output temporanei
+# -------------------------
+*.log
+logs/
+out/
+tmp/
+temp/
+
+# -------------------------
+# Backup editor
+# -------------------------
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.save
+
+# -------------------------
+# Config locali / Segreti
+# -------------------------
+.env
+.env.*
+*.env
+*.env.*
+# (se usi un env file con nome custom, aggiungilo qui)
+
+# -------------------------
+# PyInstaller / Freeze (opzionale)
+# -------------------------
+*.spec
+oracle-shell.exe
+
+# -------------------------
+# File vari non versionati
+# -------------------------
+*.sqlite
+*.db
+*.csv
+*.tsv
+*.xlsx
+*.tmp
